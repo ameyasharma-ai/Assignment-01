@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuteDude - Learn, Grow, Succeed</title>
+    <meta name="description" content="TuteDude is the ultimate learning platform offering dynamic courses, an interactive community, and expert guidance.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Welcome to <mark>TuteDude</mark> Learning</h1>
+            <p class="hero-description">Your journey to <strong>excellence</strong> begins here. <em>Empowering minds</em> through interactive education.</p>
+            
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Cafeteria Menu</a></li>
+                    <li><a href="#trivia">Trivia</a></li>
+                    <li><a href="#extras">Media</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <figure class="hero-figure">
+            <img src="hero-image.png" alt="Students engaged in a modern, collaborative learning space">
+            <figcaption>Interactive, engaging, and collaborative learning environments at TuteDude.</figcaption>
+        </figure>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section-container">
+            <h2>About Us</h2>
+            <article>
+                <h3>What is TuteDude?</h3>
+                <p>TuteDude is a premier <abbr title="Massive Open Online Course">MOOC</abbr> platform designed to transform how you learn. Founded on <time datetime="2020-05-15">May 15, 2020</time>, we provide <strong>high-quality, interactive education</strong> that fits your schedule.</p>
+                
+                <blockquote>
+                    <p>"Education is not the learning of facts, but the training of the mind to think."</p>
+                    <footer>— <cite>Albert Einstein</cite></footer>
+                </blockquote>
+            </article>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="section-container">
+            <h2>Campus Cafeteria Menu</h2>
+            <p>Fuel your learning with our nutritious and delicious meals!</p>
+            
+            <div class="table-container">
+                <table class="complex-table">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Category</th>
+                            <th>Price</th>
+                            <th>Nutrition Information</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Brain-Boost Salad</td>
+                            <td>Healthy Greens</td>
+                            <td>$5.99</td>
+                            <td>
+                                <!-- Nested Table -->
+                                <table class="nested-table">
+                                    <tr>
+                                        <th>Calories</th>
+                                        <td>150 kcal</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Protein</th>
+                                        <td>8g</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Coder's Coffee</td>
+                            <td>Beverages</td>
+                            <td>$3.50</td>
+                            <td>
+                                <!-- Nested Table -->
+                                <table class="nested-table">
+                                    <tr>
+                                        <th>Calories</th>
+                                        <td>5 kcal</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Caffeine</th>
+                                        <td>95mg</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Developer's Wrap</td>
+                            <td>Mains</td>
+                            <td>$7.50</td>
+                            <td>
+                                <!-- Nested Table -->
+                                <table class="nested-table">
+                                    <tr>
+                                        <th>Calories</th>
+                                        <td>450 kcal</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Carbs</th>
+                                        <td>45g</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">Special student discount of 10% applied with valid ID.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+        <!-- Trivia Section -->
+        <section id="trivia" class="section-container">
+            <h2>Fun Facts & Trivia</h2>
+            <aside class="trivia-box">
+                <h3>Did you know?</h3>
+                <details>
+                    <summary>First Computer Programmer</summary>
+                    <p>Ada Lovelace is considered to be the first computer programmer. She realized that the computer could follow a series of simple instructions, a program, to perform a complex calculation.</p>
+                </details>
+                <details>
+                    <summary>The first computer mouse</summary>
+                    <p>The first computer mouse was made of wood! It was invented by Doug Engelbart in 1964.</p>
+                </details>
+            </aside>
+        </section>
+
+        <!-- Extras Section -->
+        <section id="extras" class="section-container">
+            <h2>Interactive Media</h2>
+            <div class="media-grid">
+                <div class="media-card">
+                    <h3>Focus Music</h3>
+                    <p>Listen to some concentration-boosting ambient tracks while you study.</p>
+                    <audio controls>
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                
+                <div class="media-card">
+                    <h3>Introductory Video</h3>
+                    <p>Watch a brief introduction to programming concepts.</p>
+                    <video controls width="100%" poster="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.jpg">
+                        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+                        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feedback Form Section -->
+        <section id="feedback" class="section-container form-section">
+            <h2>We Value Your Feedback</h2>
+            <form action="#" method="get" class="feedback-form">
+                <fieldset>
+                    <legend>Contact & Platform Experience</legend>
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="course-interest">Area of Interest:</label>
+                        <select id="course-interest" name="course-interest">
+                            <option value="">Select a subject...</option>
+                            <option value="frontend">Frontend Web Development</option>
+                            <option value="backend">Backend Engineering</option>
+                            <option value="data-science">Data Science & AI</option>
+                            <option value="design">UI/UX Design</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="comments">Your Feedback:</label>
+                        <textarea id="comments" name="comments" rows="5" placeholder="Tell us what you think about TuteDude!"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Submit Feedback</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <address>
+                <strong>TuteDude Headquarters</strong><br>
+                123 Innovation Drive, Suite 400<br>
+                Tech City, TX 75001<br>
+                <a href="mailto:hello@tutedude.edu">hello@tutedude.edu</a>
+            </address>
+            
+            <p class="copyright">
+                &copy; <time datetime="2026">2026</time> TuteDude Learning Platform. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
